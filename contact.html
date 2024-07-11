@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Welt Research Pvt. Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML('afterbegin', data);
+        });
+    </script>
+    <header>
+        <div class="header-content">
+            <h1>Welt Research Pvt. Ltd.</h1>
+            <nav>
+                <a href="index.html" class="button">Home</a>
+                <a href="who-we-are.html" class="button">Who We Are</a>
+                <a href="purpose-vision.html" class="button">Purpose & Vision</a>
+                <a href="challenges.html" class="button">Challenges We Address</a>
+                <a href="services.html" class="button">Company Services</a>
+                <a href="uniqueness.html" class="button">Uniqueness</a>
+                <a href="revenue.html" class="button">Revenue Generation</a>
+                <a href="target-audience.html" class="button">Target Audience</a>
+                <a href="contact.html" class="button">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you. Please don't hesitate to reach out with any questions or inquiries.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Welt Research Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>

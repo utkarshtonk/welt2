@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniqueness - Welt Research Pvt. Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML('afterbegin', data);
+        });
+    </script>
+    <header>
+        <div class="header-content">
+            <h1>Welt Research Pvt. Ltd.</h1>
+            <nav>
+                <a href="index.html" class="button">Home</a>
+                <a href="who-we-are.html" class="button">Who We Are</a>
+                <a href="purpose-vision.html" class="button">Purpose & Vision</a>
+                <a href="challenges.html" class="button">Challenges We Address</a>
+                <a href="services.html" class="button">Company Services</a>
+                <a href="uniqueness.html" class="button">Uniqueness</a>
+                <a href="revenue.html" class="button">Revenue Generation</a>
+                <a href="target-audience.html" class="button">Target Audience</a>
+                <a href="contact.html" class="button">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="uniqueness-section">
+            <h2>Our Uniqueness</h2>
+            <p>At Welt Research Pvt. Ltd., we take pride in our unique approach and capabilities that set us apart from the competition:</p>
+            <ul>
+                <li>Interdisciplinary team of experts with diverse backgrounds</li>
+                <li>Strong focus on research and innovation</li>
+                <li>Commitment to sustainable and environmentally-friendly solutions</li>
+                <li>Extensive experience in working with clients across various sectors</li>
+                <li>Robust infrastructure and state-of-the-art facilities</li>
+                <li>Collaborative approach to problem-solving</li>
+                <li>Dedication to the development of rural India</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Welt Research Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>

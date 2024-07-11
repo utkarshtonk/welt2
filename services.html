@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Welt Research Pvt. Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML('afterbegin', data);
+        });
+    </script>
+    <header>
+        <div class="header-content">
+            <h1>Welt Research Pvt. Ltd.</h1>
+            <nav>
+                <a href="index.html" class="button">Home</a>
+                <a href="who-we-are.html" class="button">Who We Are</a>
+                <a href="purpose-vision.html" class="button">Purpose & Vision</a>
+                <a href="challenges.html" class="button">Challenges We Address</a>
+                <a href="services.html" class="button">Company Services</a>
+                <a href="uniqueness.html" class="button">Uniqueness</a>
+                <a href="revenue.html" class="button">Revenue Generation</a>
+                <a href="target-audience.html" class="button">Target Audience</a>
+                <a href="contact.html" class="button">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="services-section">
+            <h2>Our Services</h2>
+            <p>Discover limitless possibilities with our research-driven solutions. From pioneering innovations to customized R&D services, we empower businesses to thrive in an ever-evolving landscape.</p>
+            <ul>
+                <li>Need-based product solutions</li>
+                <li>Consultancy for technological and scientific research and innovations</li>
+                <li>Product development for holistic solutions for scientific, industrial, and social communities</li>
+                <li>Training for creating skilled human resources in scientific and technological research</li>
+                <li>Advanced research and development in big data analysis, AI & ML, IoT, and more</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Welt Research Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>

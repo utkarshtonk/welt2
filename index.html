@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welt Research Pvt.Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Empowering Innovation, Illuminating Solutions. Welcome to Welt Research, where tomorrow's breakthroughs are born today.">
+</head>
+<body>
+        <script>
+            fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('afterbegin', data);
+            });
+        </script>
+    
+    <header>
+        <div class="header-content">
+            <h1>Welt Research<br>Pvt. Ltd.</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-content">
+            <a href="index.html" class="button">Home</a>
+            <a href="who-we-are.html" class="button">Who We Are</a>
+            <a href="purpose-vision.html" class="button">Purpose & Vision</a>
+            <a href="challenges.html" class="button">Challenges We Address</a>
+            <a href="services.html" class="button">Company Services</a>
+            <a href="uniqueness.html" class="button">Uniqueness</a>
+            <a href="revenue.html" class="button">Revenue Generation</a>
+            <a href="target-audience.html" class="button">Target Audience</a>
+            <a href="contact.html" class="button">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Empowering Innovation, Illuminating Solutions:</h2>
+                <p>Welcome to Welt Research, where tomorrow's breakthroughs are born today.</p>
+                <a href="who-we-are.html" class="button">Learn More</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Welt Research Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>

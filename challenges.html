@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges We Address - Welt Research Pvt. Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML('afterbegin', data);
+        });
+    </script>
+    <header>
+        <div class="header-content">
+            <h1>Welt Research Pvt. Ltd.</h1>
+            <nav>
+                <a href="index.html" class="button">Home</a>
+                <a href="who-we-are.html" class="button">Who We Are</a>
+                <a href="purpose-vision.html" class="button">Purpose & Vision</a>
+                <a href="challenges.html" class="button">Challenges We Address</a>
+                <a href="services.html" class="button">Company Services</a>
+                <a href="uniqueness.html" class="button">Uniqueness</a>
+                <a href="revenue.html" class="button">Revenue Generation</a>
+                <a href="target-audience.html" class="button">Target Audience</a>
+                <a href="contact.html" class="button">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="challenges-section">
+            <h2>Challenges We Address</h2>
+            <p>At Welt Research Pvt. Ltd., we are dedicated to addressing some of the most pressing challenges faced by our clients, society, and the environment. Our areas of focus include:</p>
+            <ul>
+                <li>Sustainable resource management</li>
+                <li>Climate change mitigation and adaptation</li>
+                <li>Rural development and infrastructure</li>
+                <li>Technological advancements for improved efficiency</li>
+                <li>Environmental conservation and ecosystem restoration</li>
+                <li>Innovative solutions for societal well-being</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Welt Research Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>

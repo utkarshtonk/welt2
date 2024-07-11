@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Audience - Welt Research Pvt. Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML('afterbegin', data);
+        });
+    </script>
+    <header>
+        <div class="header-content">
+            <h1>Welt Research Pvt. Ltd.</h1>
+            <nav>
+                <a href="index.html" class="button">Home</a>
+                <a href="who-we-are.html" class="button">Who We Are</a>
+                <a href="purpose-vision.html" class="button">Purpose & Vision</a>
+                <a href="challenges.html" class="button">Challenges We Address</a>
+                <a href="services.html" class="button">Company Services</a>
+                <a href="uniqueness.html" class="button">Uniqueness</a>
+                <a href="revenue.html" class="button">Revenue Generation</a>
+                <a href="target-audience.html" class="button">Target Audience</a>
+                <a href="contact.html" class="button">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="target-audience-section">
+            <h2>Our Target Audience</h2>
+            <p>Welt Research Pvt. Ltd. caters to a diverse range of clients and stakeholders, including:</p>
+            <ul>
+                <li>Government agencies and policymakers</li>
+                <li>Private sector companies across various industries</li>
+                <li>Non-profit organizations and social enterprises</li>
+                <li>Research institutions and academic partners</li>
+                <li>Rural communities and agricultural cooperatives</li>
+                <li>Investors and funding bodies</li>
+            </ul>
+            <p>Our tailored solutions and collaborative approach ensure that we address the unique needs and challenges of each of our target audience segments.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Welt Research Pvt. Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
